@@ -32,9 +32,10 @@ class Main {
           System.out.println ("Top 10 Forbes In-Demand Jobs!");
 	}
     if (inPut == 4) { 
-    while (fileScanner.hasNextLine()){
+      System.out.println ("Current Students:");
+      while (fileScanner.hasNextLine()){
       String line = fileScanner.nextLine();
-      System.out.println("Current Students: " + line);
+      System.out.println(line);
     }
     }
       if (inPut == 5) {
